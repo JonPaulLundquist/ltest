@@ -7,7 +7,7 @@ Created on Wed Sep 24 16:34:33 2025
 
     Two-sample L-test (shift-invariant Cramér–von Mises variant).
     
-    Perform the two-sample L-test. The L-test is a shift-invariant modification 
+    Performs the two-sample L-test. The L-test is a shift-invariant modification 
     of the Cramér–von Mises (CvM) two-sample test [1] that minimizes the integral 
     squared difference between two empirical CDFs (L_2 squared distance), called U, 
     by optimizing a scalar location shift, s, between samples. For independent 
@@ -102,7 +102,7 @@ Created on Wed Sep 24 16:34:33 2025
     This is new code based upon the statistical distribution test proposed in 
     the author's 2017 Ph.D. thesis [3] and was used for the conference paper 
     'Study of UHECR Composition Using Telescope Array’s Middle Drum Detector and 
-    Surface Array in Hybrid Mode', 34th ICRC, 2016 additionally paper 
+    Surface Array in Hybrid Mode', 34th ICRC, 2016. Additionally, paper 
     The Astrophysical Journal, 858:76 (27pp), 2018 May 10 used a similar principle.
    
     See Also
@@ -133,16 +133,16 @@ Created on Wed Sep 24 16:34:33 2025
    ----------
    .. [1] https://en.wikipedia.org/wiki/Cramer-von_Mises_criterion
    .. [2] Abbasi, R. U., Thomson, G. B., <xmax> uncertainty from extrapolation 
-          of cosmic ray air shower parameters arXiv:1605.05241.
+          of cosmic ray air shower parameters arXiv:1605.05241
    .. [3] Lundquist, J.P. Energy Anisotropies of Proton-Like Ultra-High 
           Energy Cosmic Rays, Ph.D. Thesis, University of Utah, 2017
    .. [4] Pebay, P.P. (2008) Formulas for Robust, One-Pass Parallel 
-          Computation of Covariances and Arbitrary-Order Statistical Moments. 
-          Sandia National Laboratories Technical Report,
+          Computation of Covariances and Arbitrary-Order Statistical Moments, 
+          Sandia National Laboratories Technical Report
    .. [5] Scholz, F. W and Stephens, M. A. (1987), K-Sample Anderson-Darling 
-          Tests, Journal of the American Statistical Association, Vol. 82, pp. 918-924.
+          Tests, Journal of the American Statistical Association, Vol. 82, pp. 918-924
    .. [6] Anderson, T.W., On the distribution of the two-sampleCramer-von-Mises 
-          criterion. The Annals of Mathematical Statistics, pp. 1148-1159.
+          criterionm, The Annals of Mathematical Statistics, pp. 1148-1159
    
 @author: Jon Paul Lundquist
 """
