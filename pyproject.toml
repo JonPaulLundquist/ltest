@@ -6,12 +6,17 @@ build-backend = "setuptools.build_meta"
 name = "ltest"
 version = "0.1.0"
 description = "Two-sample L-test: Shift-Invariant Cramér–von Mises Variant"
-readme = "README.md"
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.8"
 license = "MIT"                  # SPDX string
 license-files = ["LICENSE*"]     # new field supported ≥77
 authors = [{ name = "Jon Paul Lundquist" }]
 keywords = ["statistics", "bootstrap", "nonparametric", "Cramer-von Mises", "Anderson-Darling", "two-sample"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
 dependencies = [
   "numpy>=1.23",
   "scipy>=1.9",
