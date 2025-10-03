@@ -19,6 +19,7 @@ Originally developed for ultra–high-energy cosmic-ray (UHECR) composition work
 pip install numpy scipy
 # local install from source
 pip install -e .
+```
 
 ## Usage
 ```python
@@ -51,12 +52,12 @@ print(l_p, l_p_err, l_shift, shift_err)
 This is new code based upon the statistical distribution test proposed in the author's 2017 Ph.D. thesis [3] and was used for the conference paper 'Study of UHECR Composition Using Telescope Array’s Middle Drum Detector and Surface Array in Hybrid Mode', 34th ICRC, 2016. Additionally, the paper The Astrophysical Journal, 858:76 (27pp), 2018 May 10 used a similar principle.
 
 ## References
-.. [1] https://en.wikipedia.org/wiki/Cramer-von_Mises_criterion
-.. [2] Abbasi, R. U., Thomson, G. B., <xmax> uncertainty from extrapolation of cosmic ray air shower parameters arXiv:1605.05241
-.. [3] Lundquist, J.P. Energy Anisotropies of Proton-Like Ultra-High Energy Cosmic Rays, Ph.D. Thesis, University of Utah, 2017
-.. [4] Pebay, P.P. (2008) Formulas for Robust, One-Pass Parallel Computation of Covariances and Arbitrary-Order Statistical Moments, Sandia National Laboratories Technical Report
-.. [5] Scholz, F. W and Stephens, M. A. (1987), K-Sample Anderson-Darling Tests, Journal of the American Statistical Association, Vol. 82, pp. 918-924
-.. [6] Anderson, T.W., On the distribution of the two-sampleCramer-von-Mises criterion. The Annals of Mathematical Statistics, pp. 1148-1159
+[1] https://en.wikipedia.org/wiki/Cramer-von_Mises_criterion<br>
+[2] Abbasi, R. U., Thomson, G. B., <xmax> uncertainty from extrapolation of cosmic ray air shower parameters arXiv:1605.05241<br>
+[3] Lundquist, J.P. Energy Anisotropies of Proton-Like Ultra-High Energy Cosmic Rays, Ph.D. Thesis, University of Utah, 2017<br>
+[4] Pebay, P.P. (2008) Formulas for Robust, One-Pass Parallel Computation of Covariances and Arbitrary-Order Statistical Moments, Sandia National Laboratories Technical Report<br>
+[5] Scholz, F. W and Stephens, M. A. (1987), K-Sample Anderson-Darling Tests, Journal of the American Statistical Association, Vol. 82, pp. 918-924<br>
+[6] Anderson, T.W., On the distribution of the two-sampleCramer-von-Mises criterion. The Annals of Mathematical Statistics, pp. 1148-1159<br>
 
 ## Dependencies
 - Python ≥ 3.8  
