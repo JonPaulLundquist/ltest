@@ -35,7 +35,7 @@ Created on Wed Sep 24 16:34:33 2025
         Sample 1 (must have n ≥ 2).
     y : array_like, shape (m,)
         Sample 2 (must have m ≥ 2).
-    B : int, optional (default=500)
+    B : int, optional (default=5000)
         Maximum number of bootstrap/permutation replicates used to estimate the
         L-test p-value. Early stopping may terminate before B if the relative
         Monte Carlo uncertainty target is met.
