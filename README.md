@@ -16,8 +16,13 @@ Originally developed for ultra–high-energy cosmic-ray (UHECR) composition work
 
 ## Install
 ```bash
+#Prerequisets
 pip install numpy scipy
-# local install from source
+
+#Install ltest from pip
+pip install ltest-shift
+
+# or local install from source
 pip install -e .
 ```
 

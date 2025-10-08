@@ -121,7 +121,8 @@ Created on Wed Sep 24 16:34:33 2025
     ------------
     pip install numpy scipy
     # or: conda install numpy scipy
-
+    pip install ltest-shift
+    
     Multiprocessing note
     --------------------
     When calling this from a script on Windows/macOS (spawn start method),
