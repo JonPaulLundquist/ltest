@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ltest-shift"
-version = "0.1.0"
-description = "Two-sample L-test: Shift-Invariant Cramér–von Mises Variant"
+version = "0.1.1"
+description = "Two-Sample L-Test: Shift-Invariant Cramér–von Mises Variant"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.8"
 license = "MIT"                  # SPDX string

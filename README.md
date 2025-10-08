@@ -1,4 +1,4 @@
-# ltest — Shift-invariant two-sample CvM (the L-test)
+# L-Test — Shift-Invariant Two-Sample CvM Variant
 
 Two-sample L-test (shift-invariant Cramér–von Mises variant).
     
