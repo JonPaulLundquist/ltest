@@ -78,7 +78,7 @@ def test_shift_invariance_global_additive():
 
     _finite_tuple(res1); _finite_tuple(res2)
 
-    # l_stat and cvm_p should be close (shift-invariant)
+    # l_stat and l_p should be close (shift-invariant)
     assert abs(res1[5] - res2[5]) < 0.01  # l_stat
     assert abs(res1[0] - res2[0]) < 3e-3  # l_p
 
